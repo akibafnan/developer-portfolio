@@ -8,8 +8,10 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+}
+section{
     margin-bottom: 50px;
 }
 .half-width{
@@ -19,6 +21,9 @@ section{
 .half-width img{
     width: 75%;
     margin-top: 10px;
+}
+p{
+    color: dimgray;
 }
 .link-button{
     text-decoration: none;
@@ -39,4 +44,33 @@ section{
 }
 h2{
     font-size: 40px;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.first-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.second-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 100px;
 }
